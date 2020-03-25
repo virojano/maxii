@@ -27,32 +27,32 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 #kalo mau login code qr disini pake
-gye = LINE()
+gye = LINE("virojano@jvimail.com","wirot2532")
 gye.log("Auth Token : " + str(gye.authToken))
 channelToken = gye.getChannelResult()
 gye.log("Channel Token : " + str(channelToken))
 
-ais = LINE()
+ais = LINE("virojano11@jvimail.com","wirot2532")
 ais.log("Auth Token : " + str(ais.authToken))
 channelToken = ais.getChannelResult()
 ais.log("Channel Token : " + str(channelToken))
 
-ki2 = LINE()
+ki2 = LINE("virojano22@jvimail.com","wirot2532")
 ki2.log("Auth Token : " + str(ki2.authToken))
 channelToken = ki2.getChannelResult()
 ki2.log("Channel Token : " + str(channelToken))
 
-ki3 = LINE()
+ki3 = LINE("virojano33@jvimail.com","wirot2532")
 ki3.log("Auth Token : " + str(ki3.authToken))
 channelToken = ki3.getChannelResult()
 ki3.log("Channel Token : " + str(channelToken))
 
-ki4 = LINE()
+ki4 = LINE("virojano44@jvimail.com","wirot2532")
 ki4.log("Auth Token : " + str(gye.authToken))
 channelToken = ki4.getChannelResult()
 ki4.log("Channel Token : " + str(channelToken))
 
-ki5 = LINE()
+ki5 = LINE("virojano55@jvimail.com","wirot2532")
 ki5.log("Auth Token : " + str(gye.authToken))
 channelToken = ki5.getChannelResult()
 ki5.log("Channel Token : " + str(channelToken))
